@@ -1,0 +1,47 @@
+{
+  "name": "html-template",
+  "version": "1.2.2",
+  "description": "build templates with ordinary html for node and browsers",
+  "browser": "browser.js",
+  "main": "index.js",
+  "dependencies": {
+    "concat-stream": "^1.4.7",
+    "hyperglue": "^2.0.0",
+    "hyperstream": "^1.2.2",
+    "inherits": "^2.0.1",
+    "readable-stream": "~1.0.33",
+    "shallow-copy": "~0.0.1",
+    "through2": "~0.6.3",
+    "trumpet": "^1.7.0"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/html-template.git"
+  },
+  "homepage": "https://github.com/substack/html-template",
+  "keywords": [
+    "html",
+    "template",
+    "isomorphic",
+    "browser",
+    "render",
+    "layout",
+    "inline"
+  ],
+  "engines": {
+    "node": "*",
+    "browser": "*"
+  },
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}
